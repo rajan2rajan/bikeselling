@@ -38,12 +38,31 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'account',
+
+
+    # installed app 
+
+    # this contain account parts custome login 
+    'account',      
+    # this is for user part    
+    'user',    
+
+
+
+
     # 3rd party 
+    'drf_spectacular',
+    'rest_framework',
+    'rest_framework.authtoken',
 
-
-    
 ]
+
+
+REST_FRAMEWORK = {
+    # YOUR SETTINGS
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+}
+
 
 AUTH_USER_MODEL = 'account.User'
 

@@ -38,18 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-
     # installed app 
-
     # this contain account parts custome login 
     'account',      
     # this is for user part    
     'user',    
-
-
-
-
     # 3rd party 
     'drf_spectacular',
     'rest_framework',

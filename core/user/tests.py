@@ -103,17 +103,3 @@ class PublicApiTests(TestCase):
         self.assertEqual(res.status_code, status.HTTP_200_OK)
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-        
